@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">My Movies</string>
+    <string name="error_fetch_data">Não foi possível carregar os dados</string>
+    <string name="error_network">Sem conexão com a internet</string>
+    <string name="sad_face">:(</string>
+    <string name="without_internet">Sem internet?</string>
+    <string name="try_agin">TENTAR NOVAMENTE</string>
+
+    <!-- accessibility  -->
+    <string name="movie_poster_description">Capa do filme</string>
+
+    <string name="release_date_label">Data de lançamento</string>
+    <string name="vote_average_label">Avaliação</string>
+    <string name="overview_label">Sinopse</string>
+    <string name="reviews_label">Comentários</string>
+    <string name="trailers_label">Vídeos</string>
+
+    <string name="action_favorites">Favoritos</string>
+    <string name="action_add_favorite">Adicionar aos favoritos</string>
+    <string name="action_refresh">Atualizar</string>
+    <string name="action_filter_popularity">Popularidade</string>
+    <string name="action_filter_rating">Classificação</string>
+    <string name="action_filter_now_playing">Nos cinemas</string>
+
+    <string name="action_share">Compartilhar</string>
+
+    <string name="share_sinopse_title">Compartilhar sinopse do filme</string>
+    <string name="sinopse">Sinopse</string>
+</resources>

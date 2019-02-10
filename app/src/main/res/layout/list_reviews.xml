@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="8dp"
+    tools:background="@drawable/background">
+
+    <TextView
+        android:id="@+id/txt_review_author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        tools:text="Gabriel" />
+
+    <TextView
+        android:id="@+id/txt_review_content"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:textColor="@color/lightWhite"
+        tools:text="I felt embarrassed to be watching this. It's an embarrassing fever dream. I abandoned it halfway through its runtime." />
+
+</LinearLayout>
