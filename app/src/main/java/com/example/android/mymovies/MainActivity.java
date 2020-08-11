@@ -108,7 +108,7 @@ public class MainActivity extends AppCompatActivity implements
     }
 
     private void loadMovies(String filter) {
-        if (filter == FAVORITES) {
+        if (filter.equals(FAVORITES)) {
             MainViewModel mainViewModel = ViewModelProviders.of(this).get(MainViewModel.class);
             mainViewModel.getFavoritesMovies().observe(this, new Observer<List<Movie>>() {
                 @Override
